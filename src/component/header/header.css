@@ -1,0 +1,60 @@
+.header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    
+}  
+.menu-icon{
+    display: none;
+}
+.wrap {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+.user-h{
+    font-weight: 700;
+    color:black;
+    font-size: 18px;
+}
+.nav-i{
+    color: rgb(219, 198, 165);
+    margin: 5px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+.search-i{
+    size: 10px;
+}
+.search-h{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.search-h::placeholder{
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+@media (max-width: 768px) {
+    /* Adjust the flex values for the sidebar and content layout */
+    
+
+    .menu-icon{
+        display: inline;
+    }
+}

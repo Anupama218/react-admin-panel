@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    background-color:ghostwhite
+}
+
+.wrapper{
+    flex:6;
+    max-height: 100vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+.graph {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    
+}
+.graph{
+    padding: 5px 20px;
+}
+.productList {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+   
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.listTitle {
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p-title{
+    font-weight: 700;
+}
+.search-l{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: ghostwhite;
+}
+.search-i{
+    size: 10px;
+}
+
+:root {
+    font-family: 'Roboto-regular', sans-serif !important;
+}
+
+body{
+    margin: 0px;
+}
+.widgets{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    /* Adjust the flex values for the sidebar and content layout */
+    
+
+    .wrapper {
+        flex-direction: column; /* Adjust the flex value as needed for the sidebar and content layout */
+    }
+    
+    #Sidebar {
+        display: none;
+      }
+    .graph{
+        flex-direction: column;
+    }  
+}

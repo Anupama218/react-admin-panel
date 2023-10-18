@@ -1,0 +1,24 @@
+.chart{
+    flex:4;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.chart-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chart-c1{
+    display: flex;
+    flex-direction: column;
+}
+.c2{
+    font-weight: 700;
+}
+.c3{
+    color: grey;
+    font-size: 12px;
+}

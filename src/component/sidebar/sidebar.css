@@ -1,0 +1,142 @@
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-right: 0.5px solid rgb(230, 227, 227);
+    min-height: 100vh;
+    min-width: 200px;
+    background-color: rgb(24, 0, 89);
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+.top{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+.close_icon{
+    display: none;
+}
+
+
+.centerItem{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+
+
+.icon{
+    font-size: 20px;
+    color: white;
+}
+.SidebarTitle{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-left: 10px;
+}
+
+.center{
+    padding: 0px;
+    list-style-type: none;
+}
+.listItem {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    opacity: 0.6;
+    
+}
+.listItemContainer{
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sidebarIcon{
+    color: white;
+} 
+.icon-r{
+    color: white;
+    margin-left: auto;
+    size: 12px;
+    padding-right: 10px;
+}
+.span{
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+} 
+
+.listItem:hover{
+    background-color: rgb(47, 47, 136);
+    border-radius: 10px;
+    color: white;
+    opacity: 1;
+}
+
+.bottomContainer{
+    display: flex;
+    align-items: center;
+    color: white;
+   
+}
+
+.bottom{
+    
+    padding: 10px;
+    color: white;
+    opacity: 0.6;
+    margin-top: auto;
+}
+.bottom:hover{
+    background-color: rgb(47, 47, 136);
+    border-radius: 10px;
+    opacity: 1;
+}
+.profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.user{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.user-n{
+    font-size: medium;
+}
+
+.user-d{
+    font-size: smaller;
+}
+
+li {
+    list-style: none;
+  }
+
+  .sidebar-responsive {
+    display: inline !important;
+    position: absolute;
+    z-index: 12 !important;
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust the flex values for the sidebar and content layout */
+    
+    #sidebar{
+        display: none;
+    }
+    .close_icon{
+        display: inline;
+        color: white;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+}
